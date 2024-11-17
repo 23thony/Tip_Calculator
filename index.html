@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="secondary_Container">
+            <span class="span-Title">Thony's Tip Calculator</span>
+            
+            <span>How Much was your bill</span>
+            <label for="Price" class="content">$ </label>
+            <input data-type="text" id="Price" type="text" class="content">
+            
+            <select ID="sel_tip" Class="tip" class="content">
+                <option value="" disabled selected>Choose an option</option>
+                <option value="Outstanding">Outstanding</option>
+                <option value="Good">Good</option>
+                <option value="It was oK">It was ok</option>
+                <option value="Bad">Bad</option>
+                <option value="Terrible">Terrible</option>
+            </select>
+            
+            <span class="content">How many people are sharing the bill?</span>
+            <input type="text" id="numPeople" type="type" class="content">
+
+            <button id="btn_button">Calculate</button>
+        </div>
+    </div>
+    <script src="Script.js"></script>
+</body>
+</html>
