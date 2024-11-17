@@ -1,7 +1,7 @@
 body {
     height: 100%;
     margin: 0;
-    background-color: #07004D;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@ body {
     padding: 10px 40px;
     /* border-radius: 10px;  */
     display: inline-block;
-    margin-bottom: 20px; 
+    margin-bottom: 0 20px; 
 }
 
 .content{
